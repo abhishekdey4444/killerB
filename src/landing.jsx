@@ -1,4 +1,4 @@
-import React from "react";
+import React,{ useLayoutEffect, useState } from "react";
 import "./style.css";
 import Abhishekimg from "./imgs/concept.png";
 import Reactimg from "./imgs/react.png";
@@ -35,6 +35,7 @@ import Fbimg from "./imgs/fb.png";
 import Gitimg from "./imgs/github.png";
 import Resumeimg from "./imgs/resume.png";
 import Cv from "./data/Abhishek Kumar Dey CV.pdf";
+
 
 function Landing() {
   return <div >
@@ -346,12 +347,13 @@ user
 <div className="subhead5">
 <h1>Contact</h1>
 </div>
-
+<div className="emailcontainer">
 <a href="mailto:abhishekdey4444@gmail.com">
 <div className="emailbox">
 <h2 className="email">Email - abhishekdey4444@gmail.com</h2>
 </div>
 </a>
+</div>
 <div className="smhbox">
 
 
